@@ -1,0 +1,49 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ===== Virtual envs =====
+.venv/
+venv/
+env/
+ENV/
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+# Bản sao / file trùng do tải về (vd: "Bản sao của run_ufo_space.ipynb")
+B#U1ea3n*
+Bản sao*
+Copy of *
+
+# ===== Outputs / checkpoints / logs =====
+trained_model/
+checkpoints/
+*.ckpt
+*.pth
+*.pt
+*.h5
+logs/
+*.log
+runs/
+wandb/
+outputs/
+results/
+
+# ===== IDE / OS =====
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# ===== (Tùy chọn) dữ liệu thô MovieLens =====
+# MovieLens 100K (~15 MB) tải được công khai. Bỏ comment 2 dòng dưới
+# nếu KHÔNG muốn đẩy data thô lên git (xem hướng dẫn tải trong README).
+# ml-100k/
